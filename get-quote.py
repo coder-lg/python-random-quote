@@ -9,7 +9,7 @@ def quote():
   quotes = f.readlines()
   f.close()
 
-  last=13
+  last=27
   rnd=random.randint(0,last)
 
   print(quotes[rnd])
